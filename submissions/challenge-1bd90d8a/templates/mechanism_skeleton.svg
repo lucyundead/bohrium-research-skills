@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="template-title template-description">
+  <title id="template-title">GENERIC MECHANISM TEMPLATE — PLACEHOLDERS ONLY</title>
+  <desc id="template-description">Reusable layered SVG skeleton. Replace every generic placeholder with source-backed task content; this template contains no scientific answer.</desc>
+  <defs>
+    <marker id="marker-activation" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 1 1 L 11 6 L 1 11 Z" fill="#2364aa"/>
+    </marker>
+    <marker id="marker-inhibition" viewBox="-2 -8 8 16" refX="0" refY="0" markerWidth="12" markerHeight="18" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 0 -7 L 0 7" fill="none" stroke="#c3423f" stroke-width="2.5"/>
+    </marker>
+    <marker id="marker-translocation" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 1 1 L 11 6 L 1 11 Z" fill="#6a4c93"/>
+    </marker>
+  </defs>
+  <rect id="canvas-background" x="0" y="0" width="900" height="520" fill="#ffffff"/>
+  <g id="layer-title">
+    <text id="figure-title-placeholder" x="32" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#17242d">FIGURE TITLE PLACEHOLDER</text>
+    <text id="figure-subtitle-placeholder" x="32" y="68" font-family="Arial, sans-serif" font-size="13" fill="#53636d">SOURCE / VERSION / PANEL PLACEHOLDER</text>
+  </g>
+  <g id="layer-compartments">
+    <g id="compartment-placeholder-a" transform="translate(40 100)">
+      <rect x="0" y="0" width="380" height="290" rx="16" fill="#f5f8fa" stroke="#78909c" stroke-width="1.5" stroke-dasharray="7 5"/>
+      <text id="compartment-label-a" x="16" y="26" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#37474f">COMPARTMENT A</text>
+    </g>
+    <g id="compartment-placeholder-b" transform="translate(480 100)">
+      <rect x="0" y="0" width="380" height="290" rx="16" fill="#faf8fc" stroke="#78909c" stroke-width="1.5" stroke-dasharray="7 5"/>
+      <text id="compartment-label-b" x="16" y="26" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#37474f">COMPARTMENT B</text>
+    </g>
+  </g>
+  <g id="layer-edges">
+    <g id="edge-activation-placeholder" data-kind="activation" data-source="SOURCE_REF_PLACEHOLDER">
+      <line x1="238" y1="220" x2="570" y2="220" fill="none" stroke="#2364aa" stroke-width="2.2" marker-end="url(#marker-activation)"/>
+      <text id="edge-activation-label" x="404" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2364aa" paint-order="stroke" stroke="#ffffff" stroke-width="4">RELATION LABEL</text>
+    </g>
+    <g id="edge-inhibition-placeholder" data-kind="inhibition" data-source="SOURCE_REF_PLACEHOLDER">
+      <line x1="220" y1="330" x2="540" y2="330" fill="none" stroke="#c3423f" stroke-width="2.2" marker-end="url(#marker-inhibition)"/>
+      <text id="edge-inhibition-label" x="380" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#c3423f" paint-order="stroke" stroke="#ffffff" stroke-width="4">RELATION LABEL</text>
+    </g>
+    <g id="edge-translocation-placeholder" data-kind="translocation" data-source="SOURCE_REF_PLACEHOLDER">
+      <line x1="620" y1="270" x2="700" y2="270" fill="none" stroke="#6a4c93" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#marker-translocation)"/>
+    </g>
+  </g>
+  <g id="layer-entities">
+    <g id="entity-placeholder-a" transform="translate(90 180)" data-source="SOURCE_REF_PLACEHOLDER">
+      <rect x="0" y="0" width="150" height="80" rx="12" fill="#ffffff" stroke="#263238" stroke-width="1.6"/>
+      <text id="entity-label-a" x="75" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#17242d">ENTITY A</text>
+    </g>
+    <g id="entity-placeholder-b" transform="translate(580 180)" data-source="SOURCE_REF_PLACEHOLDER">
+      <ellipse cx="75" cy="40" rx="75" ry="40" fill="#ffffff" stroke="#263238" stroke-width="1.6"/>
+      <text id="entity-label-b" x="75" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#17242d">ENTITY B</text>
+    </g>
+    <g id="entity-placeholder-c" transform="translate(70 290)" data-source="SOURCE_REF_PLACEHOLDER">
+      <rect x="0" y="0" width="150" height="80" rx="12" fill="#ffffff" stroke="#263238" stroke-width="1.6"/>
+      <text id="entity-label-c" x="75" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#17242d">ENTITY C</text>
+    </g>
+    <g id="entity-placeholder-d" transform="translate(540 290)" data-source="SOURCE_REF_PLACEHOLDER">
+      <rect x="0" y="0" width="150" height="80" rx="12" fill="#ffffff" stroke="#263238" stroke-width="1.6"/>
+      <text id="entity-label-d" x="75" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#17242d">ENTITY D</text>
+    </g>
+  </g>
+  <g id="layer-legend">
+    <text id="legend-title" x="40" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#37474f">LEGEND</text>
+    <g id="legend-activation" transform="translate(40 462)">
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#2364aa" stroke-width="2" marker-end="url(#marker-activation)"/>
+      <text id="legend-activation-label" x="48" y="5" font-family="Arial, sans-serif" font-size="13" fill="#37474f">ACTIVATION LABEL</text>
+    </g>
+    <g id="legend-inhibition" transform="translate(300 462)">
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#c3423f" stroke-width="2" marker-end="url(#marker-inhibition)"/>
+      <text id="legend-inhibition-label" x="48" y="5" font-family="Arial, sans-serif" font-size="13" fill="#37474f">INHIBITION LABEL</text>
+    </g>
+    <g id="legend-translocation" transform="translate(580 462)">
+      <line x1="0" y1="0" x2="34" y2="0" stroke="#6a4c93" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#marker-translocation)"/>
+      <text id="legend-translocation-label" x="48" y="5" font-family="Arial, sans-serif" font-size="13" fill="#37474f">TRANSLOCATION LABEL</text>
+    </g>
+  </g>
+</svg>
